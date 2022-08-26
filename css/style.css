@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    color: #fff;
+
+}
+
+/* ******************
+******TYPHOGRAPHY******
+****************** */
+h1,
+h2 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: .4em;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: .8em;
+}
+
+p {
+    line-height: 2;
+    margin-bottom: .8em;
+}
+
+span {
+    color: #98D4FF;
+}
+
+/* ******************
+******LAYOUT******
+****************** */
+.container {
+    margin-top: 2em;
+    max-width: 400px;
+    padding: .5em;
+}
+
+.card-container {
+    border-radius: 20px;
+    padding: 1em;
+    background: #000;
+    font-weight: 300!;
+}
+
+/* ******************
+******Form******
+****************** */
+
+input {
+    background-color: #505050;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: .7em;
+    margin: 1em 0;
+    color: #fff;
+}
+
+input[type=text] {
+    font-size: 1rem;
+    margin-bottom: .8em;
+}
+
+label {
+    font-size: 1.4rem;
+    margin: .8em 0;
+    font-weight: 500;
+}
+::-webkit-input-placeholder { 
+    color: #909090;
+}
+
+/* ******************
+******Buttons******
+****************** */
+
+.btn-register {
+    background:#00AD3B;
+    border: 0;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    padding: .5em 1.4em;
+    margin-bottom: .8em;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    font-size: 1rem;
+}
+  
+  .btn-register:hover,
+  .btn-register:focus { 
+    background:#047028;
+    color: #ffffff;
+  }
+
+
+.btn-facebook{
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    cursor: pointer;
+    background: #0030AD;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.btn-instagram{
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1.2em;
+    cursor: pointer;
+    background: #DC0E0E;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+/* ******************
+******Media Query******
+****************** */
+
+/* TABLET */
+
+@media (min-width:1326px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .social-media-button{
+        display: flex;
+    }
+
+    .social-media-button > * {
+        margin: .5em;
+    }
+}
+
+@media (min-width:800px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
