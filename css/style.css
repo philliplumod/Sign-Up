@@ -52,7 +52,7 @@ span {
 }
 
 .card-container {
-    border-radius: 20px;
+    border-radius: .25rem;
     padding: 1em;
     background: #000;
     font-weight: 300!;
@@ -93,7 +93,7 @@ label {
 .btn-register {
     background:#00AD3B;
     border: 0;
-    border-radius: 8px;
+    border-radius: 0.25rem;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
@@ -115,26 +115,39 @@ label {
     display: inline-block;
     width: 100%;
     padding: 1em;
-    border-radius: 10px;
+    border-radius: 0.25rem;
     margin-bottom: 1.2em;
     cursor: pointer;
-    background: #0030AD;
+    background: #3c599b;
     color: #fff;
     font-size: .8rem;
     font-weight: 600;
 }
 
+.btn-facebook:hover,
+.btn-facebook:focus { 
+  background:#2b5ed6;
+  color: #ffffff;
+}
+
+
 .btn-instagram{
     display: inline-block;
     width: 100%;
     padding: 1em;
-    border-radius: 10px;
+    border-radius: 0.25rem;
     margin-bottom: 1.2em;
     cursor: pointer;
-    background: #DC0E0E;
+    background: #e04a39;
     color: #fff;
     font-size: .8rem;
     font-weight: 600;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus { 
+  background:#f1331e;
+  color: #ffffff;
 }
 
 /* ******************
@@ -145,7 +158,7 @@ label {
 
 @media (min-width:1326px) {
     .container {
-        max-width: 700px;
+        max-width: 500px;
     }
 
     .social-media-button{
@@ -154,12 +167,6 @@ label {
 
     .social-media-button > * {
         margin: .5em;
-    }
-}
-
-@media (min-width:800px) {
-    .container {
-        max-width: 600px;
     }
 }
 
